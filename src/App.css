@@ -12,6 +12,7 @@
 
 .background-space {
   position: absolute;
+  pointer-events: none;
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -39,5 +40,18 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 9999;
+  z-index: 99;
+}
+
+#muteButton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
